@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="js/funcoes.js"></script>
+    
+</head>
+<body>
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="FormClientes.html">Cadastro Clientes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="FormProdutos.html">Cadastro Produtos</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card " style="width: 18rem;">
+                    <img src="img/img1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Por que carro elétrico não tem cambio?</h5>
+                        <p class="text-muted">5 Disponiveis</p>
+                        <p class="preco">R$ 90,00</p>
+                        <button type="button" onclick="produto1();" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#carrinho">
+                            Adicionar ao carrinho
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card " style="width: 18rem;">
+                    <img src="img/img2.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Por que carro elétrico não tem cambio?</h5>
+                        <p class="text-muted">5 Disponiveis</p>
+                        <p class="preco">R$ 90,00</p>
+                        <button type="button" onclick="produto2();" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#carrinho">Adicionar ao carrinho</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card " style="width: 18rem;">
+                    <img src="img/img3.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Por que carro elétrico não tem cambio?</h5>
+                        <p class="text-muted">5 Disponiveis</p>
+                        <p class="preco">R$ 90,00</p>
+                        <button type="button" onclick="produto3();" class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#carrinho" >Adicionar ao carrinho</button>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card " style="width: 18rem;">
+                    <img src="img/img4.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Por que carro elétrico não tem cambio?</h5>
+                        <p class="text-muted">5 Disponiveis</p>
+                        <p class="preco">R$ 90,00</p>
+                        <button type="button" onclick="produto3();" class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#carrinho" >Adicionar ao carrinho</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card " style="width: 18rem;">
+                    <img src="img/img5.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Por que carro elétrico não tem cambio?</h5>
+                        <p class="text-muted">5 Disponiveis</p>
+                        <p class="preco">R$ 90,00</p>
+                        <button type="button" onclick="produto3();" class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#carrinho" >Adicionar ao carrinho</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card " style="width: 18rem;">
+                    <img src="img/img6.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Por que carro elétrico não tem cambio?</h5>
+                        <p class="text-muted">5 Disponiveis</p>
+                        <p class="preco">R$ 90,00</p>
+                        <button type="button" onclick="produto3();" class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#carrinho" >Adicionar ao carrinho</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card " style="width: 18rem;">
+                    <img src="img/img7.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Por que carro elétrico não tem cambio?</h5>
+                        <p class="text-muted">5 Disponiveis</p>
+                        <p class="preco">R$ 90,00</p>
+                        <button type="button" onclick="produto3();" class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#carrinho" >Adicionar ao carrinho</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card " style="width: 18rem;">
+                    <img src="img/img8.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Por que carro elétrico não tem cambio?</h5>
+                        <p class="text-muted">5 Disponiveis</p>
+                        <p class="preco">R$ 90,00</p>
+                        <button type="button" onclick="produto3();" class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#carrinho" >Adicionar ao carrinho</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card " style="width: 18rem;">
+                    <img src="img/img9.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Por que carro elétrico não tem cambio?</h5>
+                        <p class="text-muted">5 Disponiveis</p>
+                        <p class="preco">R$ 90,00</p>
+                        <button type="button" onclick="produto3();" class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#carrinho" >Adicionar ao carrinho</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card " style="width: 18rem;">
+                    <img src="img/img10.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Por que carro elétrico não tem cambio?</h5>
+                        <p class="text-muted">5 Disponiveis</p>
+                        <p class="preco">R$ 90,00</p>
+                        <button type="button" onclick="produto3();" class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#carrinho" >Adicionar ao carrinho</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="carrinho" tabindex="-1" aria-labelledby="carrinhoLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="carrinhoLabel">Carrinho: </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body" id="carrinhoConteudo">
+                        ......
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-success">Adicionar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+<footer class="text-center text-lg-start bg-light text-muted">
+    <div class="container-fluid">
+        <div class="text-center p-4">
+            <span>© 2021 Copyright:</span>            
+            <a class="text-reset fw-bold" href="#">site.com</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
